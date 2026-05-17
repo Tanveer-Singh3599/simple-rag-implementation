@@ -69,6 +69,7 @@ PULL REQUIRED MODELS
 Run the following commands:
 
 ollama pull qwen3-embedding:0.6b
+
 ollama pull qwen3.5:2b
 
 ------------------------------------------------------------
@@ -170,8 +171,6 @@ CURRENT LIMITATIONS
 - Prompt formatting is basic
 - Only PDF support currently
 - No UI
-- Chunking can be messy sometimes
-- Some typo mistakes in variables
 
 But overall, the pipeline works well for learning purposes.
 
@@ -180,21 +179,13 @@ FUTURE IMPROVEMENTS
 ------------------------------------------------------------
 
 - Add FastAPI backend
-- Add Streamlit UI
+- Add Streamlit or gradio UI
 - Better prompt engineering
 - Metadata filtering
 - Hybrid search
 - Reranking
 - Support TXT/DOCX files
 - Conversational memory
-
-------------------------------------------------------------
-WHY I MADE THIS
-------------------------------------------------------------
-
-Mostly for learning how RAG pipelines work locally without paid APIs.
-
-Local AI engineering is actually pretty fun.
 
 ------------------------------------------------------------
 LICENSE
