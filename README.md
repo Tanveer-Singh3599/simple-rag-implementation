@@ -46,13 +46,7 @@ PROJECT STRUCTURE
 REQUIREMENTS
 ------------------------------------------------------------
 
-Install the required packages:
-
-pip install langchain
-pip install langchain-community
-pip install langchain-ollama
-pip install chromadb
-pip install pypdf
+user requirements.txt to install requirements.
 
 ------------------------------------------------------------
 INSTALL OLLAMA
