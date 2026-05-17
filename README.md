@@ -29,17 +29,18 @@ PROJECT STRUCTURE
 ------------------------------------------------------------
 
 .
-├── ingestion.py          # Loads PDFs and stores embeddings
 
-├── retrieval.py          # Similarity search from vector DB
+-> ingestion.py          # Loads PDFs and stores embeddings
 
-├── augmentation.py       # Formats retrieved chunks into prompt
+-> retrieval.py          # Similarity search from vector DB
 
-├── generation.py         # Generates final response
+-> augmentation.py       # Formats retrieved chunks into prompt
 
-├── database_config.py    # ChromaDB setup
+-> generation.py         # Generates final response
 
-├── main.py               # Main pipeline
+-> database_config.py    # ChromaDB setup
+
+-> main.py               # Main pipeline
 
 ------------------------------------------------------------
 REQUIREMENTS
