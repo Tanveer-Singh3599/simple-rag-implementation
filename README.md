@@ -22,19 +22,7 @@ FEATURES
 PIPELINE OVERVIEW
 ------------------------------------------------------------
 
-PDFs
-  ↓
-Chunking
-  ↓
-Embeddings
-  ↓
-ChromaDB
-  ↓
-Similarity Search
-  ↓
-Prompt Augmentation
-  ↓
-LLM Response
+PDFs -> Chunking -> Embeddings -> ChromaDB -> Similarity Search -> Prompt Augmentation -> LLM Response
 
 ------------------------------------------------------------
 PROJECT STRUCTURE
@@ -42,10 +30,15 @@ PROJECT STRUCTURE
 
 .
 ├── ingestion.py          # Loads PDFs and stores embeddings
+
 ├── retrieval.py          # Similarity search from vector DB
+
 ├── augmentation.py       # Formats retrieved chunks into prompt
+
 ├── generation.py         # Generates final response
+
 ├── database_config.py    # ChromaDB setup
+
 ├── main.py               # Main pipeline
 
 ------------------------------------------------------------
